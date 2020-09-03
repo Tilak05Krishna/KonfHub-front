@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <title>KonfHub front end</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<form>
+
+  <h1>List Of All conferences</h1>
+  <div class="input-details">
+    <input type="text" name="text" class="search" placeholder="Search here for city name or conference name...">
+    <button type="button" class="btn btn-dark searchButton inFilterButton">Search</button>
+  </div>
+</form>
+<div class="filterButtons">
+    <button type="button" class="btn btn-dark all inFilterButton" name="button"> All </button>
+    <button type="button" class="btn btn-dark free inFilterButton" name="button"> Free </button>
+    <button type="button" class="paid btn btn-dark inFilterButton" name="button"> Paid </button>
+    <button class="sortButton btn btn-dark inFilterButton" type="button" name="button">Sort By Date</button>
+</div>
+<div class="container content">
+
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
